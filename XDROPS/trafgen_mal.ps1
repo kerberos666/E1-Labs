@@ -8,7 +8,6 @@ $url6 = "http://bit.ly/xdrdemo05"
 $url7 = "http://bit.ly/xdrdemo03"
 $url8 = "http://bit.ly/xdrdemo04"
 
-
 $dlurl = "http://184.0.146.139/xdr/Work_kit.zip"
 $dst = "C:\Users\Student\Desktop\XDR Files\Work_kit.zip"
 #Write-Host "Invoke-WebRequest -Uri $dlurl -OutFile $dst"
