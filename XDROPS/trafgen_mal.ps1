@@ -157,7 +157,7 @@ While($true)
             } 
        "6" {
             Write-Host "URL6"
-            $dlurl = "https://ssl-proxy.opendns /download/eicar.com"
+            $dlurl = "https://ssl-proxy.opendnstest.com/download/eicar.com"
             }
        "7" {
             Write-Host "URL7"
