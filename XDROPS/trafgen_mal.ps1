@@ -57,7 +57,7 @@ $ie = IE
 While($true)
 {
     $result = Random-Number 2 10
-    Write-Host "sleep pendant $result"
+    Write-Host "Sleeping for $result seconds..."
     #Start-Sleep $result
 
     $result = Random-Number 0 8
@@ -65,7 +65,7 @@ While($true)
     If ($result -ne "0") {
         #Internet Explorer
         $SleepTime = Random-Number 2 5
-        Write-Host "Internet Explorer, nous allons vers l'url : $result"
+        Write-Host "Internet Explorer, navigating to URL : $result"
         
     switch ($result) {
        "1"  {
